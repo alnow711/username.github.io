@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gmail Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">Gmail Clone</div>
+    <nav>
+      <ul>
+        <li><a href="#">Inbox</a></li>
+        <li><a href="#">Sent</a></li>
+        <li><a href="#">Drafts</a></li>
+        <!-- Add more links as needed -->
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search mail">
+      <button>Search</button>
+    </div>
+  </header>
+
+  <!-- Email List Section -->
+  <section class="email-list">
+    <!-- Display list of emails here -->
+  </section>
+
+  <!-- Email View Section -->
+  <section class="email-view">
+    <!-- Display selected email details here -->
+  </section>
+
+  <!-- Compose Email Section -->
+  <section class="compose-email">
+    <!-- Form to compose a new email -->
+  </section>
+
+  <!-- Sidebar Section -->
+  <aside class="sidebar">
+    <!-- Navigation links, labels, folders, etc. -->
+  </aside>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Gmail Clone. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-bar {
+  margin-right: 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  width: 200px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
